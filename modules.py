@@ -9,3 +9,30 @@ def hangman_gen(num_attempts):
         print('             ')
         print('             ')
         print('_____________')
+
+    elif num_attempts == 2:
+        print('|            ')
+        print('|            ')
+        print('|            ')
+        print('|            ')
+        print('|            ')
+        print('|            ')
+        print('|____________')
+
+    elif num_attempts == 3:
+        print('|------------')
+        print('|            ')
+        print('|            ')
+        print('|            ')
+        print('|            ')
+        print('|            ')
+        print('|____________')
+
+    elif num_attempts == 4:
+        print('|------------')
+        print('|      |     ')
+        print('|   { .  . }  ')
+        print('|            ')
+        print('|            ')
+        print('|            ')
+        print('|____________')

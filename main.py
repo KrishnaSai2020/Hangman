@@ -1,8 +1,9 @@
 import random
+
 from modules import hangman_gen
 
 dict_of_names = {
-    1: ['Name','How'],
+    1: ['Name', 'How', 'jfslbfhvbjfbvjbvdjhvbdjvbjvbjdvj'],
     2: ['howdy'],
     3: ['skiddlywup']
 
@@ -26,11 +27,10 @@ except:
 
 random_word = random.choice(dict_of_names[difficulty_level])
 length_of_word = int(len(random_word))
-
 for i in random_word:
     print('_', end='')
 
-print("")
+print("\n")
 
 attempts = []
 num_attempts = len(attempts)
